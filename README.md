@@ -5,11 +5,11 @@ My YouTube est une application de diffusion vidéo basée sur une architecture *
 ## 🛠️ Technologies
 
 - **Frontend** : Vue.js (Nuxt.js)
-- **Backend** : Python (FastAPI)
-- **Encodage vidéo** : Python avec FFmpeg
-- **Mailer** : Python (Postfix)
-- **Moteur de recherche** : Elasticsearch
-- **Base de données** : PostgreSQL
+- **Backend** : Python (Flask)
+- **Encodage vidéo** : Python (Flask) avec FFmpeg
+- **Mailer** : Python (Flask)
+- **Moteur de recherche** : Algolia
+- **Base de données** : MySQL
 - **Conteneurisation** : Docker (docker-compose)
 
 ## 📁 Structure
@@ -21,7 +21,7 @@ My YouTube est une application de diffusion vidéo basée sur une architecture *
 2. **Backend API** : Gère les utilisateurs et les vidéos via des endpoints RESTful.
 3. **Encodage vidéo** : Automatisation de l’encodage en différentes résolutions via FFmpeg.
 4. **Mailer** : Envoi d’emails transactionnels (ex. : confirmation d’encodage).
-5. **Moteur de recherche** : Recherche syntaxique rapide avec Elasticsearch.
+5. **Moteur de recherche** : Recherche syntaxique rapide avec Algolia.
 
 ## 🚀 Déploiement
 
