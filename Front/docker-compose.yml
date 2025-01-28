@@ -1,0 +1,9 @@
+version: '3'
+services:
+  myfront:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+      - "24678:24678"

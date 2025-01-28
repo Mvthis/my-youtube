@@ -1,0 +1,33 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@types/node": "^18.17.3",
+    "nuxt": "^3.6.5",
+    "sass": "^1.66.1",
+    "sass-loader": "^13.3.2"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.11",
+    "@mui/material": "^5.14.11",
+    "@popperjs/core": "^2.11.8",
+    "algoliasearch": "^4.20.0",
+    "bootstrap": "5.3.1",
+    "instantsearch.css": "^8.1.0",
+    "jwt-decode": "^3.1.2",
+    "mitt": "^3.0.1",
+    "nuxt-storage": "^1.2.2",
+    "react": "^18.2.0",
+    "vue-instantsearch": "^4.10.12"
+  }
+}

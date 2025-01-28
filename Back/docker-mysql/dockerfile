@@ -1,0 +1,6 @@
+FROM mysql/mysql-server
+
+ENV MYSQL_ROOT_PASSWORD mypass
+ADD ./database.sql /docker-entrypoint-initdb.d/database.sql
+
+EXPOSE 3306
